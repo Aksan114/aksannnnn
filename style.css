@@ -88,7 +88,9 @@ section h3 {
     padding: 20px 0;
     color: white;
 }
-
+.about {
+    background-color: #333;
+    height: 460px;
 .about p {
     color:white;
     text-align: center;
