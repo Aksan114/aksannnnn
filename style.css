@@ -126,8 +126,9 @@ section h3 {
 }
 footer {
     padding: 15px 0;
-    background-color: #333;
+    background-color: black;
     text-align: center;
+    color: #fff;
 }
 .b {
     background-color: #333;
