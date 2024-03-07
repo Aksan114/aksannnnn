@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 body {
-    background-color: #192430;
+    background-color: aqua;
 }
 a {
     color: inherit;
@@ -31,15 +31,14 @@ a {
     display: block;
     clear: both;
 }
-
 header h1 {
     float: left;
     padding: 30px 0;
-    color: white;
+    color: black;
 }
 header ul {
     float: right;
-    margin-left: 300px;
+    margin-left: 420px;
     padding: 15px 0;
 }
 header ul li {
@@ -53,9 +52,10 @@ header ul li a:hover{
     color: #fff;  text-decoration: underline white;  
 }
 .active {
-    background-color:#333;
-    color: #fff; 
-    border-radius: 90%;
+    /* background-color:#333; */
+    color: cadetblue; 
+    text-decoration: underline black;
+    /* border-radius: 90%; */
 }
 .banner {
     height: 90vh;
@@ -67,7 +67,7 @@ header ul li a:hover{
     align-items: center;
 }
 .banner h2 {
-    color: #fff;
+    color: black;
     z-index: 1;
 }
 .banner::after{
@@ -80,6 +80,38 @@ header ul li a:hover{
     bottom: 0;
     border:purple
 }
+.nama {
+    font-size: 20px;
+    margin-top: -90px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.data {
+    margin-top: -150px;
+    padding: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.foto {
+    height: 320px;
+    width: 300px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.calgot {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.calgot1 {
+    display: grid;
+    grid-template-rows: 400px 100px;
+    width: 300px;
+    background: white;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px
+}
 section {
     padding: 50px 0;
 }
@@ -89,7 +121,6 @@ section h3 {
     color: white;
 }
 .about p {
-    color:white;
     text-align: center;
     size: 20px;
 }
@@ -127,8 +158,9 @@ footer {
 }
 .image-container {
     position: relative;
+    width: 100px;
+    height: 100px;
 }
-
 .image-text {
     position: absolute;
     top: 40%;
@@ -150,7 +182,10 @@ footer {
     text-decoration: none;
 
 }
-
+.aku {
+    text-align: center;
+    
+}
 .image-container img {
     width: 100%;
     display: block;
@@ -158,16 +193,19 @@ footer {
 .image {
     display: flex;
     align-items: center;
-    color: white;
+    color: black;
+}
+.image p {
+    font-size: 14px;
 }
 section p {
     font-size: 10px;
     margin-left: 10px;
 }
 table {
-    margin-left: 50px;
-    margin-left: 9%;
-    padding: 20px;
+    margin-left: 30px;
+    margin-left: 10%;
+    padding: 30px;
 }
 .data img {
     border-radius: 5%;
@@ -176,4 +214,78 @@ table {
 }
 .ima {
     padding: 20px;
+}
+footer {
+    margin-top: 100px;
+}
+.contact-in{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: #fff;
+}
+.contact-map{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.contact-form{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.contact-form h1 {
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form-txt{
+    width: 100%;
+    height: 30px;
+    color: #333;
+    border: 1px solid black;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form-txt::placeholder{
+    color: #aaa;
+}
+.contact-form-txtarea{
+    width: 100%;
+    height: 130px;
+    color: #333;
+    border: 1px solid black;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-form-txtarea::placeholder{
+    color: #aaa;
+}
+.contact-form-btn
+{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    background-color: cadetblue;
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 18px;
 }
